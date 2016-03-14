@@ -82,7 +82,7 @@
         <!-- end navigation panel -->
              <!-- parallax -->
         <section class="parallax1 parallax-fix full-screen no-padding" >
-            <img class="parallax-background-img" src="images/nyc_bkg4.jpg" alt="" />
+            <img class="parallax-background-img" src="images/nyc_bkg4.jpg" alt="" /><!--change this bkg JD-->
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
