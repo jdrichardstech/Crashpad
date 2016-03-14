@@ -2199,3 +2199,17 @@ thead th.first { padding-left: 0 !important; }
     color:#fff; text-align: center; 
     font-size:1.2em;
 }
+
+
+
+/* font for header*/
+.myHeader{
+    font-weight: bold;
+    text-shadow: 1px 1px solid white;
+}
+
+
+.myNavheight{
+    margin: 0 auto;
+    height: :10px;
+}
