@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crashpad</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Add Pad</h1>
+
+
+    <form action ="api/pad/" method = "post">
+	<input type = "string" name = "owner" placeholder = "ID Number" /><br />
+	<input type = "string" name = "address" placeholder = "Address" /><br />
+	<input type = "string" name = "city" placeholder = "city" /><br />
+	<input type = "string" name = "state" placeholder = "state" /><br />
+	<input type = "string" name = "zip" placeholder = "zip" /><br />
+	<input type = "string" name = "rate" placeholder = "rate" /><br />
+
+	<button type = "submit"> Register</button>
+	</form>
+  </body>
+</html>
+

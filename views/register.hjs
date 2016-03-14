@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Register</h1>
+
+
+    <form action ="account/profile/" method = "post">
+	<input type = "string" name = "firstName" placeholder = "First Name" /><br />
+	<input type = "string" name = "lastName" placeholder = "Last Name" /><br />
+	<input type = "string" name = "city" placeholder = "city" /><br />
+	<input type = "string" name = "state" placeholder = "state" /><br />
+	<input type = "string" name = "zip" placeholder = "zip" /><br />
+	<input type = "string" name = "email" placeholder = "email" /><br />
+	<input type = "string" name = "password" placeholder = "password" /><br />
+	<button type = "submit"> Register</button>
+	</form>
+  </body>
+</html>
+
+
+
