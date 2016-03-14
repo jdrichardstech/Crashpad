@@ -47,7 +47,7 @@
     </head>
     <body>
         <!-- navigation panel -->
-       <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent" role="navigation">
+         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent" role="navigation">
             <div class="container">
                 <div class="row">
                     <!-- logo -->
@@ -80,57 +80,24 @@
             </div>
         </nav>
         <!-- end navigation panel -->
-        <!-- slider -->
-        <section id="slider" class="no-padding">
-            <div id="owl-demo" class="owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">
-                <!-- slider item -->
-                <div class="item owl-bg-img" style="background-image:url('http://placehold.it/1920x1100');">
-                    <div class="opacity-full bg-dark-gray"></div>
-                    <div class="container full-screen position-relative">
-                        <div class="slider-typography text-center">
-                            <div class="slider-text-middle-main">
-                                <div class="slider-text-middle slider-text-middle6 padding-left-right-px wow fadeInUp">
-                                    <span class="slider-title-big6 white-text text-uppercase font-weight-700 letter-spacing-3">experiences</span>
-                                    <span class="white-text text-small text-uppercase letter-spacing-10 margin-three no-margin-bottom display-block xs-letter-spacing-6">we craft experiences that help brands</span>
-                                </div>
-                            </div>
+             <!-- parallax -->
+        <section class="parallax1 parallax-fix full-screen no-padding" >
+            <img class="parallax-background-img" src="images/nyc_bkg4.jpg" alt="" />
+            <div class="container full-screen position-relative">
+                <div class="slider-typography">
+                    <div class="slider-text-middle-main">
+                        <div class="slider-text-bottom slider-text-middle5 text-left animated fadeInUp">
+                            
+                            <span class="slider-title-big5 white-text">We believe hard work</span>
+                            <span class="slider-subtitle5 white-text">We believe in design,<br> strategy and web<br> technology</span><br>
+                            <div class="separator-line bg-yellow no-margin-lr no-margin-top xs-margin-bottom-ten"></div>
                         </div>
                     </div>
                 </div>
-                <!-- end slider item -->
-                <!-- slider item -->
-                <div class="item owl-bg-img" style="background-image:url('http://placehold.it/1920x1100');">
-                    <div class="opacity-full bg-dark-gray"></div>
-                    <div class="container full-screen position-relative">
-                        <div class="slider-typography text-center">
-                            <div class="slider-text-middle-main">
-                                <div class="slider-text-middle slider-text-middle6 padding-left-right-px wow fadeInUp">
-                                    <span class="slider-title-big6 white-text text-uppercase font-weight-700 letter-spacing-3">Leadership</span>
-                                    <span class="white-text text-small text-uppercase letter-spacing-10 margin-three no-margin-bottom display-block">we work hard - we play hard</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end slider item -->
-                <!-- slider item -->
-                <div class="item owl-bg-img" style="background-image:url('http://placehold.it/1920x1100');">
-                    <div class="opacity-full bg-dark-gray"></div>
-                    <div class="container full-screen position-relative">
-                        <div class="slider-typography text-center">
-                            <div class="slider-text-middle-main">
-                                <div class="slider-text-middle slider-text-middle6 padding-left-right-px wow fadeInUp">
-                                    <span class="slider-title-big6 white-text text-uppercase font-weight-700 letter-spacing-3">Expertise</span>
-                                    <span class="white-text text-small text-uppercase letter-spacing-10 margin-three no-margin-bottom display-block">We craft unique digital experiences</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end slider item -->
             </div>
+            <div class="scroll-down"><a href="#features" class="inner-link"></a></div>
         </section>
-        <!-- end slider -->
+        <!-- end parallax -->
         <!-- about section -->
         <section class="no-padding-bottom wow fadeIn">
             <div class="container">
