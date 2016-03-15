@@ -2210,6 +2210,13 @@ thead th.first { padding-left: 0 !important; }
 
 
 .myNavheight{
-    margin: 0 auto;
-    height: :10px;
+    display:block;
+       height: :10px;
+}
+
+
+.bgimage {
+background-image: url(../images/cash1.jpg);
+background-size: cover;
+
 }
