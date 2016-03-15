@@ -54,9 +54,9 @@
                     <div class="col-md-2 pull-left">
                         <a class="logo-light" href="/">
                             <img alt="" src="images/logo-white.png" class="logo" /></a>
-                        <a class="logo-dark" href="/">
-                            <img alt="" src="images/logo-light.png" class="logo" /></a>
-                        </div>
+                            <a class="logo-dark" href="/">
+                        <img alt="" src="images/logo-light.png" class="logo" /></a>
+                    </div>
                     <!-- end logo -->                  
                     <!-- toggle navigation -->
                     <div class="navbar-header col-sm-8 col-xs-2 pull-right">
@@ -77,7 +77,7 @@
                                     <!-- sub menu single -->
                                     <!-- sub menu item  -->
                                     <ul id="collapse7" class="dropdown-menu panel-collapse collapse" role="menu">
-                                        <li><a href="/pads">New York</a></li>
+                                       <li><a href="/pads">New York</a></li>
                                         <li><a href="/pads">Chicago</a></li>
                                         <li><a href="/pads">Los Angeles</a></li>
                                         
@@ -98,68 +98,7 @@
             </div>
         </nav>
         <!-- end navigation panel -->
-             <!-- parallax -->
-        <section class="parallax1 parallax-fix full-screen padding-top" >
-            <img class="parallax-background-img" src="images/apt_header5.jpg" alt=""><!--change this bkg JD-->
-            <div class="container full-screen position-relative">
-            	<div class = "row"> 
-					<div class = "col-md-7 col-md-offset-1">
-					     <div class="slider-typography">
-	            				<div class="slider-text-middle-main">
-	                				<div class="slider-text-bottom slider-text-middle5 text-left animated fadeInUp ">
-	                    				<br /><br />
-					                    <h1><span class="slider-title-big5 white-text myHeader" style="font-size:1.4em; line-height: 2em; ">Need a place to crash tonight?</span></h1>
-					                    <h4><span class="slider-subtitle4 white-text myHeader" style="">Find nearby places<br>to crash...last minute</span></h4><br>                
-                        			</div>
-                    			</div>
-                		</div>
-
-				</div>
-
-					<div class = "col-md-4">
-						<form action ="account/profile/" method = "post" class="signup">
-							<p>Sign up for a preview when we launch this Spring!</p>
-							<hr />
-							<input type = "string" name = "name" placeholder = "name" /><br />
-							<input type = "string" name = "city" placeholder = "city" /><br />
-							<input type = "string" name = "email" placeholder = "email" /><br />
-							<input type = "string" name = "password" placeholder = "password" /><br />
-							<button class = "btn btn-success no-margin" type = "submit"> Register</button>
-						</form>
-
-					</div>
-					
-
-
-            	</div>
-           
-            </div>
-            <div class="scroll-down"><a href="#features" class="inner-link"></a></div>
-        </section>
-        <!-- end parallax -->
-        <!-- about section -->
-        <section class="no-padding-bottom wow fadeIn bgimage">
-                <div class="row  ">
-                	<div class ="col-md-12 text-center">
-                		
-                		<i class="fa fa-dollar fa-5x" style ="color:green;"></i>
-                		
-                	</div>
-                    <div class="col-md-6 col-sm-10 text-center center-col">
-                      
-                        <h1 style="margin-top:10px;">OR...Want to make extra cash?</h1>
-                        <p class="text-med width-90 center-col margin-seven no-margin-bottom"><h3> Share your pad for a fee for one or more nights</h3></p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid margin-five no-margin-bottom">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 bg-fast-yellow padding-three text-center">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end about section -->
+             
        <!-- blog section -->
         <section id="blog" class="wow fadeIn">
             <div class="container">
@@ -181,8 +120,8 @@
                                 <p class="width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                             </div>
                             <!--div >
-                            	
-                            	<a href="#" class="btn-success btn btn-small button button-3d btn-round  xs-margin-bottom-five">Success Button</a>
+                                
+                                <a href="#" class="btn-success btn btn-small button button-3d btn-round  xs-margin-bottom-five">Success Button</a>
                             </div-->
                         </div>
                     </div>
@@ -211,11 +150,7 @@
                     </div>
                 </div>
                 <!-- end blog item -->
-                <div class="row">
-                    <div class="col-md-12 text-center wow fadeInUp" data-wow-duration="1200ms">
-                        <a class="btn btn-black btn-small margin-four no-margin-bottom" href="">View More Offerings</a>
-                    </div>
-                </div>
+                
             </div>
         </section>
         <!-- end blog section -->
@@ -223,143 +158,11 @@
      
         
       
-        <!-- highlight section -->
-        <section class="bg-fast-yellow no-padding wow fadeInUp">
-            <div class="container">
-                <div class="row padding-five sm-text-center">
-                    <div class="col-md-1">
-                        <i class="medium-icon black-text no-margin icon-toolbox"></i>
-                    </div>
-                    <div class="col-md-6 no-padding">
-                        <span class="text-med text-uppercase letter-spacing-2 margin-two black-text font-weight-600 xs-margin-top-six xs-margin-bottom-six display-block">Want to check out more available Pads?</span>
-                    </div>
-                    <div class="col-md-5 no-padding">
-                        <a class="highlight-button-dark btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="">View Available Spaces</a>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end highlight section -->
-       
         
-        
-        <!-- testimonial section -->
-        <section class="border-bottom">
-            <div class="container">
-                <div class="row">
-                	<div class = "col-md-12 testimonial-style2 text-center xs-margin-bottom-ten">
-                		<h2 style = "margin-bottom: 30px;">Check out what our Crashers have to say:</h2>
-                		<div>
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="/images/testimonialPic1.jpg" alt=""/><!--300x300 pic-->
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Alexander Smith - Google</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="/images/testimonialPic2.jpg" alt=""/><!--300x300 pic-->
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Herman Miller - Apple</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp no-margin-top">
-                        <img src="/images/testimonialPic3.jpg" alt=""/><!--300x300 pic-->
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Bryan Jonhson - Yahoo</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                </div>
-            </div>
-        </section>
-        <!-- end testimonial section -->
-       
-        
-       
         <!-- footer -->
         <footer class ="bg-fast-yellow" style = "color:dark gray;">
           
-            <div class="container footer-middle">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 footer-link1 xs-display-none">
-                        <!-- headline -->
-                        <h5>About Us</h5>
-                        <!-- end headline -->
-                        <!-- text -->
-                        <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        <!-- end text -->
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-3">
-                        <!-- headline -->
-                        <h5>Company</h5>
-                        <!-- end headline -->
-                        <!-- link -->
-                        <ul>
-                            <li><a href="about-us.html">About Company</a></li>
-                            <li><a href="about-us.html">What We Do</a></li>
-                            <li><a href="about-us.html">What We Think</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                        </ul>
-                        <!-- end link -->
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4  footer-link3">
-                        <!-- headline -->
-                        <h5>Services</h5>
-                        <!-- end headline -->
-                        <!-- link -->
-                        <ul>
-                            <li><a href="services.html">Web Development</a></li>
-                            <li><a href="services.html">Graphic Design</a></li>
-                            <li><a href="services.html">Copywriting</a></li>
-                            <li><a href="services.html">Online Marketing</a></li>
-                        </ul>
-                        <!-- end link -->
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4  footer-link4">
-                        <!-- headline -->
-                        <h5>Introduction</h5>
-                        <!-- end headline -->
-                        <!-- link -->
-                        <ul>
-                            <li><a href="team-members.html">Team Members</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="our-clients.html">Our Clients</a></li>
-                            <li><a href="careers.html">Careers With Us</a></li>
-                        </ul>
-                        <!-- end link -->
-                    </div>
-                </div>
-                <div class="wide-separator-line bg-mid-gray no-margin-lr  margin-bottom"></div>
-                <div class="row no-margin-bottom">
-                    <div class="col-md-6 col-sm-12 sm-text-center sm-margin-bottom-four">
-                        <!-- link -->
-                        <ul class="list-inline footer-link text-uppercase">
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="blog-masonry-3columns.html">Blog</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact-us.html">Contact</a></li>
-                        </ul>
-                        <!-- end link -->
-                    </div>
-                    <div class="col-md-6 col-sm-12 footer-social text-right sm-text-center">
-                        <!-- social media link -->
-                        <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
-                        <a target="_blank" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                        <!-- end social media link -->
-                    </div>
-                </div>
-            </div>
+           
             <div class="container-fluid bg-dark-gray footer-bottom">
                 <div class="container">
                     <div class="row ">
