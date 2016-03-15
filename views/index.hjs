@@ -47,7 +47,7 @@
     </head>
     <body>
         <!-- navigation panel -->
-         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation"style ="margin: 0;">
+         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation"style ="margin: 0 auto;">
             <div class="container" style ="height:10px;">
                 <div class="row">
                     <!-- logo -->
@@ -64,11 +64,23 @@
                             <ul id="accordion" class="nav navbar-nav navbar-right panel-group">
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="/">Home <i class="fa fa-angle-down"></i></a>                             
+                                    <a href="/">Home <i class="fa fa-angle-down"></i></a>    
                                 </li>
-                                  <li class="dropdown panel">
-                                    <a href="/">Pads <i class="fa fa-angle-down"></i></a>                                
+                                   <!-- menu item -->
+                                <li class="dropdown panel simple-dropdown">
+                                    <a href="#collapse7" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Pads <i class="fa fa-angle-down"></i></a>
+                                    <!-- sub menu single -->
+                                    <!-- sub menu item  -->
+                                    <ul id="collapse7" class="dropdown-menu panel-collapse collapse" role="menu">
+                                        <li><a href="home-shop.html">New York</a></li>
+                                        <li><a href="shop-with-sidebar.html">Chicago</a></li><li><a href="shop-with-sidebar-list.html">Los Angeles</a></li>
+                                        
+                                    </ul>
+                                    <!-- end sub menu item  -->
+                                    <!-- end sub menu single -->
                                 </li>
+                                <!-- end menu item -->
+                                 
                                   <li class="dropdown panel">
                                     <a href="/register">Join<i class="fa fa-angle-down"></i></a>                                   
                                 </li>                                                                    
