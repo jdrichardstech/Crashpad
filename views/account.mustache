@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        {{>head}}
+    </head>
+    <body>
+        <!-- navigation panel -->
+         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation"style ="margin: 0 auto;">
+            <div class="container" style ="height:10px;">
+                <div class="row">
+                    <!-- logo -->
+                    <div class="col-md-2 pull-left">
+                        <a class="logo-light" href="/">
+                            <img alt="" src="images/logo-white.png" class="logo" /></a>
+                        <a class="logo-dark" href="/">
+                            <img alt="" src="images/logo-light.png" class="logo" /></a>
+                        </div>
+                    <!-- end logo -->                   
+                    <!-- toggle navigation -->
+                    <div class="navbar-header col-sm-8 col-xs-2 pull-right">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    </div>
+                    <!-- toggle navigation end -->
+                    <!-- main menu -->
+                    <div class="col-md-10 padding-right accordion-menu text-right">
+                        <div class="navbar-collapse collapse">
+                            <ul id="accordion" class="nav navbar-nav navbar-right panel-group">
+                                <!-- menu item -->
+                                <li class="dropdown panel">
+                                    <a href="/">Home <i class="fa fa-angle-down"></i></a>    
+                                </li>
+                                   <!-- menu item -->
+                                <li class="dropdown panel simple-dropdown">
+                                    <a href="#collapse7" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Pads <i class="fa fa-angle-down"></i></a>
+                                    <!-- sub menu single -->
+                                    <!-- sub menu item  -->
+                                    <ul id="collapse7" class="dropdown-menu panel-collapse collapse" role="menu">
+                                       <li><a href="/pads">New York</a></li>
+                                        <li><a href="/pads">Chicago</a></li>
+                                        <li><a href="/pads">Los Angeles</a></li>
+                                        
+                                    </ul>
+                                    <!-- end sub menu item  -->
+                                    <!-- end sub menu single -->
+                                </li>
+                                <!-- end menu item -->
+                                 
+                                  <li class="dropdown panel">
+                                    <a href="/register">Join<i class="fa fa-angle-down"></i></a>                                   
+                                </li>                                                                    
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end main menu -->
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation panel -->
+             
+       <section class="wow fadeIn" ><!--style = "background: #fdd947;"-->
+            <div class="container" >
+                
+                <div class="row">
+
+                    <div class="col-md-7 col-sm-12 center-col">
+                        <!-- tab -->
+                        <div class="tab-style1">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <!-- tab navigation -->
+                                    <ul class="nav nav-tabs nav-tabs-light text-left">
+                                        <li class="active"><a href="#tab_sec1" data-toggle="tab">Update User Profile </a></li>
+                                        <li><a href="#tab_sec2" data-toggle="tab">Add a Pad</a></li>
+                                       
+                                    </ul>
+                                    <!-- tab end navigation -->
+                                </div>
+                            </div>
+                            <!-- tab content section -->
+                            <div class="tab-content">
+                                <!-- tab content -->
+                                <div class="tab-pane med-text fade in active" id="tab_sec1">
+                                    <div class="row">
+                    <div class="col-md-7 col-sm-10 text-center center-col">
+                         <!-- required  -->
+                          <i class = "fa fa-exchange margin-bottom margin-top" style = "font-size:4rem;"></i>
+                         <h2 class = "margin-bottom">Change Your Account Info</h2>
+                        <span class="required">*Please complete fields you want to change</span>
+
+                        <form>
+                           
+                            <!-- input -->
+                           <input type = "string" name = "name" placeholder = "name" /><br />
+                            <input type = "string" name = "city" placeholder = "city" /><br />
+                            <input type = "string" name = "email" placeholder = "email" /><br />
+                            <input type = "string" name = "password" placeholder = "password" /><br />
+                                                       <!-- end required  -->
+                            <!-- button  -->
+                          <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Update</a>
+                            <!-- end button  -->
+                        </form>
+                    </div>
+                </div>
+                                </div>
+
+                                <!-- end tab content -->
+
+
+                                <!-- tab content -->
+                                <div class="tab-pane fade in" id="tab_sec2">
+                                    <div class="row">
+                                        <div class="col-md-9 col-sm-10 text-center center-col">
+                         <!-- required  -->
+
+                          <i class = "fa fa-home margin-bottom" style = "font-size:4rem;"></i>
+                        <h2>Add A New Crash Pad</h2>
+
+                        <p>Make quick cash sharing your space with  overnight guests.</p>
+                        <p class ="text-left">Add a picture of your pad:</p>
+                            <div class="blog-post-images margin-bottom"><a href="blog-single-full-width.html"><img src="http://placehold.it/800x500" alt=""></a></div>
+                        <form>
+                           
+                            <!-- input -->
+
+                           <input type = "string" name = "bedrooms" placeholder = "# of bedrooms" /><br />
+                            <input type = "string" name = "price" placeholder = "price" /><br />
+                            <input type = "string" name = "city" placeholder = "city" /><br />
+                            <input type = "string" name = "min stay" placeholder = "min stay" /><br />
+                                                       <!-- end required  -->
+
+
+                            <!-- button  -->
+                           <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Add Pad</a>
+                            <!-- end button  -->
+                        </form>
+                   
+                    </div>
+                                    </div>
+                  
+                    </div>
+                                </div>
+                                <!-- end tab content -->
+
+                                
+                               
+                            </div>
+                            <!-- end tab content section -->
+                        </div>
+                        <!-- end tab -->
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+        {{>footer}}
+        {{>scripts}}
+          </body>
+</html>
