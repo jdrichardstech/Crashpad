@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title>H-Code | Responsive & Multi-Purpose One/Multi Page Template</title>
+        <title><span class = "first-letter first-letter-round">C</span>CRASHPAD</title>
         <meta name="description" content="H-Code - A premium portfolio template from ThemeZaa">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -47,7 +47,7 @@
     </head>
     <body>
         <!-- navigation panel -->
-         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation">
+         <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation"style ="margin: 0;">
             <div class="container" style ="height:10px;">
                 <div class="row">
                     <!-- logo -->
@@ -59,7 +59,7 @@
                     </div>
                     <!-- toggle navigation end -->
                     <!-- main menu -->
-                    <div class="col-md-10 no-padding-right accordion-menu text-right">
+                    <div class="col-md-10 padding-right accordion-menu text-right">
                         <div class="navbar-collapse collapse">
                             <ul id="accordion" class="nav navbar-nav navbar-right panel-group">
                                 <!-- menu item -->
@@ -81,23 +81,17 @@
         </nav>
         <!-- end navigation panel -->
              <!-- parallax -->
-        <section class="parallax1 parallax-fix full-screen padding-top" style = "max-height:660px" >
+        <section class="parallax1 parallax-fix full-screen padding-top" >
             <img class="parallax-background-img" src="images/apt_header5.jpg" alt=""><!--change this bkg JD-->
             <div class="container full-screen position-relative">
             	<div class = "row"> 
-
-				
-
 					<div class = "col-md-7 col-md-offset-1">
 					     <div class="slider-typography">
 	            				<div class="slider-text-middle-main">
 	                				<div class="slider-text-bottom slider-text-middle5 text-left animated fadeInUp ">
 	                    				<br /><br />
 					                    <h1><span class="slider-title-big5 white-text myHeader" style="font-size:1.4em; line-height: 2em; ">Need a place to crash tonight?</span></h1>
-					                    <h4><span class="slider-subtitle4 white-text myHeader" style="">Find nearby places<br>to crash...last minute</span></h4><br>
-										<div class="separator-line bg-yellow no-margin-lr no-margin-top xs-margin-bottom-ten"></div>
-					                    <span class="slider-title-big5 white-text myHeader">Want to make extra cash?</span>
-					                    <span class="slider-subtitle4 white-text myHeader">Share your space <br>for one or more nights!</span-->
+					                    <h4><span class="slider-subtitle4 white-text myHeader" style="">Find nearby places<br>to crash...last minute</span></h4><br>                
                         			</div>
                     			</div>
                 		</div>
@@ -126,13 +120,17 @@
         </section>
         <!-- end parallax -->
         <!-- about section -->
-        <section class="no-padding-bottom wow fadeIn">
-            <div class="container">
-                <div class="row">
+        <section class="no-padding-bottom wow fadeIn bgimage">
+                <div class="row  ">
+                	<div class ="col-md-12 text-center">
+                		
+                		<i class="fa fa-dollar fa-5x" style ="color:green;"></i>
+                		
+                	</div>
                     <div class="col-md-6 col-sm-10 text-center center-col">
-                        <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2011</span>
-                        <h1>A digital studio crafting beautiful experiences.</h1>
-                        <p class="text-med width-90 center-col margin-seven no-margin-bottom"> We've been crafting beautiful websites, launching stunning brands and making clients happy for years. With our prestigious craftsmanship, remarkable client care and passion for design.</p>
+                      
+                        <h1 style="margin-top:10px;">OR...Want to make extra cash?</h1>
+                        <p class="text-med width-90 center-col margin-seven no-margin-bottom"><h3> Share your pad for a fee for one or more nights</h3></p>
                     </div>
                 </div>
             </div>
@@ -156,14 +154,18 @@
                 </div>
                 <div class="row">
                     <!-- blog item -->
-                    <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="300ms">
+                    <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="300ms" >
                         <div class="blog-post">
                             <div class="blog-post-images"><a href="blog-single-full-width-with-image-slider.html"><img src="/images/apt1.jpg" alt=""></a></div>
                             <div class="post-details">
-                                <a href="blog-single-full-width-with-image-slider.html" class="post-title">Standard post with picture</a>
-                                <span class="post-author sm-margin-bottom-three sm-margin-top-three">Posted by <a href="blog-single-full-width-with-image-slider.html">Michael Freemon</a> | 10 January 2015</span>
+                                <a href="blog-single-full-width-with-image-slider.html" class="post-title">1 BR LOWER EAST SIDE</a>
+                                <span class="post-author sm-margin-bottom-three sm-margin-top-three">$100 per night<a href="blog-single-full-width-with-image-slider.html"></span>
                                 <p class="width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                             </div>
+                            <!--div >
+                            	
+                            	<a href="#" class="btn-success btn btn-small button button-3d btn-round  xs-margin-bottom-five">Success Button</a>
+                            </div-->
                         </div>
                     </div>
                     <!-- end blog item -->
@@ -228,9 +230,12 @@
         <section class="border-bottom">
             <div class="container">
                 <div class="row">
+                	<div class = "col-md-12 testimonial-style2 text-center xs-margin-bottom-ten">
+                		<h2 style = "margin-bottom: 30px;">Check out what our Crashers have to say:</h2>
+                		<div>
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="/images/testimonialPic1.jpg" alt=""/><!--300x300 pic-->
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Alexander Smith - Google</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -238,7 +243,7 @@
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="/images/testimonialPic2.jpg" alt=""/><!--300x300 pic-->
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Herman Miller - Apple</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -246,7 +251,7 @@
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp no-margin-top">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="/images/testimonialPic3.jpg" alt=""/><!--300x300 pic-->
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Bryan Jonhson - Yahoo</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -260,7 +265,7 @@
         
        
         <!-- footer -->
-        <footer class ="bg-fast-yellow" style = "dark gray;">
+        <footer class ="bg-fast-yellow" style = "color:dark gray;">
           
             <div class="container footer-middle">
                 <div class="row">
@@ -312,8 +317,8 @@
                         <!-- end link -->
                     </div>
                 </div>
-                <div class="wide-separator-line bg-mid-gray no-margin-lr margin-three no-margin-bottom"></div>
-                <div class="row margin-four no-margin-bottom">
+                <div class="wide-separator-line bg-mid-gray no-margin-lr  no-margin-bottom"></div>
+                <div class="row no-margin-bottom">
                     <div class="col-md-6 col-sm-12 sm-text-center sm-margin-bottom-four">
                         <!-- link -->
                         <ul class="list-inline footer-link text-uppercase">
@@ -339,7 +344,7 @@
             </div>
             <div class="container-fluid bg-dark-gray footer-bottom">
                 <div class="container">
-                    <div class="row margin-three">
+                    <div class="row ">
                         <!-- copyright -->
                         <div class="col-md-6 col-sm-6 col-xs-12 copyright text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
                             &copy; 2015 H-Code is proudly powered by ThemeZaa.
@@ -354,7 +359,7 @@
                 </div>
             </div>
             <!-- scroll to top -->
-            <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+            <!--a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a-->
             <!-- scroll to top End... -->
         </footer >
         <!-- end footer -->
