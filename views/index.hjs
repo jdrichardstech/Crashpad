@@ -329,7 +329,7 @@
                         <!-- end link -->
                     </div>
                 </div>
-                <div class="wide-separator-line bg-mid-gray no-margin-lr  no-margin-bottom"></div>
+                <div class="wide-separator-line bg-mid-gray no-margin-lr  margin-bottom"></div>
                 <div class="row no-margin-bottom">
                     <div class="col-md-6 col-sm-12 sm-text-center sm-margin-bottom-four">
                         <!-- link -->
