@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title><span class = "first-letter first-letter-round">C</span>CRASHPAD</title>
+        <title>CRASHPAD</title>
         <meta name="description" content="H-Code - A premium portfolio template from ThemeZaa">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -67,7 +67,7 @@
                                     <a href="/">Home <i class="fa fa-angle-down"></i></a>                             
                                 </li>
                                   <li class="dropdown panel">
-                                    <a href="/">About <i class="fa fa-angle-down"></i></a>                                
+                                    <a href="/">Pads <i class="fa fa-angle-down"></i></a>                                
                                 </li>
                                   <li class="dropdown panel">
                                     <a href="/register">Join<i class="fa fa-angle-down"></i></a>                                   
