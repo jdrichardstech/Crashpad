@@ -3,10 +3,10 @@
     <head>
         {{>head}}
     </head>
-    <body>
+    <body style = "padding:3px 0 0 0; width: 100%;">
         <!-- navigation panel -->
          <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation">
-            <div class="container" style ="height:10px;">
+            <div class="container" style ="height:10px;" >
                 <div class="row">
                     <!-- logo -->
                     <div class="col-md-2 pull-left">
@@ -58,15 +58,15 @@
         <!-- end navigation panel -->
              <!-- parallax -->
         <section class="parallax1 parallax-fix full-screen padding-top" >
-            <img class="parallax-background-img" src="images/apt_header5.jpg" alt=""><!--change this bkg JD-->
+            <img class="parallax-background-img" src="images/apt_header5.jpg"  alt=""><!--change this bkg JD-->
             <div class="container full-screen position-relative">
             	<div class = "row"> 
-					<div class = "col-md-7 col-md-offset-1">
+					<div class = "col-xs-12 col-md-6">
 					     <div class="slider-typography">
 	            				<div class="slider-text-middle-main">
 	                				<div class="slider-text-bottom slider-text-middle5 text-left animated fadeInUp ">
 	                    				<br /><br />
-					                    <h1><span class="slider-title-big5 white-text myHeader" style="font-size:1.4em; line-height: 2em; ">Need a place to crash tonight?</span></h1>
+					                    <h1><span class="slider-title-big5 white-text myHeader" style="font-size:1.2em; line-height: 1.4em; ">Need a place to crash tonight?</span></h1>
 					                    <h4><span class="slider-subtitle4 white-text myHeader" style="">Find nearby places<br>to crash...last minute</span></h4><br>                
                         			</div>
                     			</div>
@@ -74,14 +74,20 @@
 
 				    </div>
 
-					<div class = "col-md-4">
-						<form action ="account/profile/" method = "post" class="signup">
+					<div class = "col-xs-12 col-md-6">
+						<form role = "form" action ="account/profile/" method = "post" class="signup" style = "width:75%;">
 							<p>Sign up for a preview when we launch this Spring!</p>
 							<hr />
-							<input type = "string" name = "name" placeholder = "name" /><br />
-							<input type = "string" name = "city" placeholder = "city" /><br />
-							<input type = "string" name = "email" placeholder = "email" /><br />
-							<input type = "string" name = "password" placeholder = "password" /><br />
+                            <div class = "form-group">
+							<input type = "text" name = "name" placeholder = "name" />
+                            </div>
+                            <div class = "form-group">
+							<input type = "text" name = "city" placeholder = "city" /></div>
+                            <div class = "form-group">
+							<input type = "text" name = "email" placeholder = "email" </div>
+                            <div class = "form-group">
+							<input type = "text" name = "password" placeholder = "password" />
+                            </div>
 							<button class = "btn btn-success no-margin" type = "submit"> Register</button>
 						</form>
 
@@ -98,12 +104,12 @@
                 <div class="row  ">
                 	<div class ="col-md-12 text-center">
                 		
-                		<i class="fa fa-dollar fa-5x" style ="color:green;"></i>
+                		<i class="fa fa-dollar fa-5x" style ="color:green; margin-bottom:40px; "></i>
                 		
                 	</div>
                     <div class="col-md-6 col-sm-10 text-center center-col">
                       
-                        <h1 style="margin-top:10px;">OR...Want to make extra cash?</h1>
+                        <h1 class = "margin-none">OR...Want to make extra cash?</h1>
                         <p class="text-med width-90 center-col margin-seven no-margin-bottom"><h3> Share your pad for a fee for one or more nights</h3></p>
                     </div>
                 </div>
@@ -130,7 +136,7 @@
                     <!-- blog item -->
                     <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="600ms">
                         <div class="blog-post">
-                            <div class="blog-post-images"><a href="blog-single-right-sidebar.html"><img src="/images/apt1.jpg" alt=""></a>
+                            <div class="blog-post-images"><a href="blog-single-right-sidebar.html"><img src="/images/apt1.jpg" class = "img-responsive" alt=""></a>
                             </div>
                             <div class="post-details">
                                 <a href="blog-single-right-sidebar.html" class="post-title">Post with featured picture</a>
@@ -143,7 +149,7 @@
                     <!-- blog item -->
                     <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="600ms">
                         <div class="blog-post">
-                            <div class="blog-post-images"><a href="blog-single-right-sidebar.html"><img src="/images/apt2.jpg" alt=""></a>
+                            <div class="blog-post-images"><a href="blog-single-right-sidebar.html"><img src="/images/apt2.jpg" class = "img-responsive" alt=""></a>
                             </div>
                             <div class="post-details">
                                 <a href="blog-single-right-sidebar.html" class="post-title">Post with featured picture</a>
@@ -155,7 +161,7 @@
                     <!-- end blog item -->
                     <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="900ms">
                         <div class="blog-post">
-                            <div class="blog-post-images"><a href="blog-single-full-width.html"><img src="/images/apt3.jpg" alt=""></a>
+                            <div class="blog-post-images"><a href="blog-single-full-width.html"><img src="/images/apt3.jpg" class ="img-responsive" alt=""></a>
                             </div>
                             <div class="post-details">
                                 <a href="blog-single-full-width.html" class="post-title">Standard post with slider</a>
