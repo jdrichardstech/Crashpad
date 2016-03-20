@@ -3,7 +3,7 @@
     <head>
         {{>head}}
     </head>
-    <body>
+    <body style = "background-image:url('/images/texturebackground.png'); background-repeat:repeat;">
         <!-- navigation panel -->
          <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-dark-transparent " role="navigation"style ="margin: 0 auto;">
             <div class="container" style ="height:10px;">
@@ -44,7 +44,9 @@
                                     <!-- end sub menu single -->
                                 </li>
                                 <!-- end menu item -->
-                                 
+                                  <li class="dropdown panel">
+                                    <a href="/account.mustache">Account <i class="fa fa-angle-down"></i></a>    
+                                </li>
                                   <li class="dropdown panel">
                                     <a href="/register">Join<i class="fa fa-angle-down"></i></a>                                   
                                 </li>                                                                    
@@ -57,147 +59,18 @@
         </nav>
         <!-- end navigation panel -->
              
-       <section class="wow fadeIn" ><!--style = "background: #fdd947;"-->
-            <div class="container" >
-                
-                <div class="row">
-
-                    <div class="col-md-7 col-sm-12 center-col">
-                        <!-- tab -->
-                        <div class="tab-style1">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <!-- tab navigation -->
-                                    <ul class="nav nav-tabs nav-tabs-light text-left">
-                                        <li class="active"><a href="#tab_sec1" data-toggle="tab">Update User Profile </a></li>
-                                        <li><a href="#tab_sec2" data-toggle="tab">Add a Pad</a></li>
-                                        <li><a href="#tab_sec3" data-toggle="tab">Your Profile</a></li>
-                                       
-                                    </ul>
-                                    <!-- tab end navigation -->
-                                </div>
-                            </div>
-                            <!-- tab content section -->
-                            <div class="tab-content">
-                                <!-- tab content -->
-                                <div class="tab-pane med-text fade in active" id="tab_sec1">
-                                    <div class="row">
-                    <div class="col-md-7 col-sm-10 text-center center-col">
-                         <!-- required  -->
-                          <i class = "fa fa-exchange margin-bottom margin-top" style = "font-size:4rem;"></i>
-                         <h2 class = "margin-bottom">Change Your Account Info</h2>
-                        <span class="required">*Please complete fields you want to change</span>
-
-                        <form>
-                           
-                            <!-- input -->
-                           <input type = "string" name = "name" placeholder = "name" /><br />
-                            <input type = "string" name = "city" placeholder = "city" /><br />
-                            <input type = "string" name = "email" placeholder = "email" /><br />
-                            <input type = "string" name = "password" placeholder = "password" /><br />
-                                                       <!-- end required  -->
-                            <!-- button  -->
-                          <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Update</a>
-                            <!-- end button  -->
-                        </form>
-                    </div>
-                </div>
-                                </div>
-
-                                <!-- end tab content -->
-
-
-                                <!-- tab content -->
-                                <div class="tab-pane fade in" id="tab_sec2">
-                                    <div class="row">
-                                        <div class="col-md-9 col-sm-10 text-center center-col">
-                         <!-- required  -->
-
-                          <i class = "fa fa-home margin-bottom" style = "font-size:4rem;"></i>
-                        <h2>Add A New Crash Pad</h2>
-
-                        <p>Make quick cash sharing your space with  overnight guests.</p>
-                        <p class ="text-left">Add a picture of your pad:</p>
-                            <div class="blog-post-images margin-bottom"><a href="blog-single-full-width.html"><img src="http://placehold.it/800x500" alt=""></a></div>
-                        <form>
-                           
-                            <!-- input -->
-
-                           <input type = "string" name = "bedrooms" placeholder = "# of bedrooms" /><br />
-                            <input type = "string" name = "price" placeholder = "price" /><br />
-                            <input type = "string" name = "city" placeholder = "city" /><br />
-                            <input type = "string" name = "min stay" placeholder = "min stay" /><br />
-                                                       <!-- end required  -->
-
-
-                            <!-- button  -->
-                           <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Add Pad</a>
-                            <!-- end button  -->
-                        </form>
-                   
-                    </div>
-                                    </div>
-                  
-                    </div>
-                                </div>
-                                <!-- end tab content -->
-                             <!-- tab content section -->
-                            <div class="tab-content">
-                                <!-- tab content -->
-                                <div class="tab-pane med-text fade in active" id="tab_sec3">
-                                    <div class="row">
-                    <div class="col-md-7 col-sm-10 text-center center-col">
-                         <!-- required  -->
-                          <i class = "fa fa-exchange margin-bottom margin-top" style = "font-size:4rem;"></i>
-                         <h2 class = "margin-bottom">Your Profile</h2>
-                        <span class="required">*Please complete fields you want to change</span>
-
-                        <form>
-                           
-                            <!-- input -->
-                           <input type = "string" name = "name" placeholder = "name" /><br />
-                            <input type = "string" name = "city" placeholder = "city" /><br />
-                            <input type = "string" name = "email" placeholder = "email" /><br />
-                            <input type = "string" name = "password" placeholder = "password" /><br />
-                                                       <!-- end required  -->
-                            <!-- button  -->
-                          <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Update</a>
-                            <!-- end button  -->
-                        </form>
-                    </div>
-                </div>
-                                </div>
-
-                                <!-- end tab content -->
-                                
-                               
-                            </div>
-                            <!-- end tab content section -->
-                        </div>
-                        <!-- end tab -->
-                    </div>
-                </div>
-                    
-            </div>
-        </section>
-        <!--USE THIS TAB SECTION!! Tab Style #
-        <section class="wow fadeIn border-top">
+       <section class="wow fadeIn border-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-10 center-col text-center margin-ten no-margin-top xs-margin-bottom-seven">
-                        <h6 class="no-margin-top margin-ten xs-margin-bottom-seven"><strong class="black-text">Tab Style #6</strong></h6>
-                    </div>
-                </div>
+                
                 <div class="row">
                     <!-- tab -->
                     <div class="col-md-12 col-sm-12 center-col text-center" id="animated-tab">
                         <!-- tab navigation -->
                         <ul class="nav nav-tabs margin-five no-margin-top">
-                            <li class="nav active"><a href="#tab6_sec1" data-toggle="tab"><h3>Current Profile</h3></a></li>
-                            <li class="nav"><a href="#tab6_sec2" data-toggle="tab"><h3>Update Profile</h3></a></li>
-                            <li class="nav"><a href="#tab6_sec3" data-toggle="tab"><h3>Review</h3></a></li>
-                            <li class="nav"><a href="#tab6_sec4" data-toggle="tab"><h3>Favorites</h3></a></li>
+                            <li class="nav active"><a href="#tab6_sec1" data-toggle="tab"><span><i class="icon-tools"></i></span></a></li>
+                            <li class="nav"><a href="#tab6_sec2" data-toggle="tab"><span><i class="icon-key"></i></span></a></li>
                             
+                            <li class="nav"><a href="#tab6_sec3" data-toggle="tab"><span><i class="icon-profile-male "></i></span></a></li>
                         </ul>
                         <!-- end tab navigation -->
                         <!-- tab content section -->
@@ -205,125 +78,102 @@
                             <!-- tab content -->
                             <div id="tab6_sec1" class="col-md-9 col-sm-12 text-center center-col tab-pane fade in active"> 
                                 <div class="tab-pane fade in"> 
-                                    <div class="row"> 
-                                        <div class="col-md-6 col-sm-12 text-left gray-text">
-                                            <h5>Graphic Design</h5>
-                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
-                                            <p class="text-large margin-five margin-right-ten">We believe in the power of design, the strength of strategy, and the ability of technology to transform businesses and lives.</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 text-left text-med gray-text">
-                                            <p class="text-uppercase">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row"> 
-                                        <div class="wide-separator-line"></div>
-                                    </div>
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 text-center service-year black-text">
-                                            <strong>1999 to 2014</strong> - Graphic Design Experience
+                                            <h1>Review A Crashpad</h1>
+
+                                            <p class="text-large center-text">Leave a review of the pad in which you crashed</p>
+                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
+                                            <form>
+                                              <div class="form-group">
+                                                
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter the Pad ID number">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="review">Your Review:</label>
+                                                <textarea class="form-control" rows="5"id="review" name="review" ></textarea>
+                                                                                    <!-- button  -->
+                                                <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Submit Review</a>
+                                    <!-- end button  -->
+
+                                              </div>
+                                          </form>
+
+
                                         </div>
                                     </div>
+                                 
+                                  
+                                    
                                 </div>
                             </div>
                             <!-- end tab content -->
                             <!-- tab content -->
                             <div id="tab6_sec2" class="col-md-9 col-sm-12 text-center center-col tab-pane fade in"> 
                                 <div class="tab-pane fade in"> 
-                                    <div class="row"> 
-                                        <div class="col-md-6 col-sm-12 text-left gray-text">
-                                            <h5>Web Design</h5>
-                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
-                                            <p class="text-large margin-five margin-right-ten">Every website we design is bespoke, fuelled with years of industry experience. Proudly designed in the World.</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 text-left text-med gray-text">
-                                            <p class="text-uppercase">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row"> 
-                                        <div class="wide-separator-line"></div>
-                                    </div>
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 text-center service-year black-text">
-                                            <strong>1995 to 2014</strong> - Web Design Experience
+                                            <h1>Add A Pad</h1>
+
                                         </div>
                                     </div>
+                                    <div class="row"> 
+                                        <div class="col-md-5 col-sm-12 text-left gray-text">
+                                            
+                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
+                                            <div class="margin-bottom"><h4>Add a photo of your pad:</h4>
+
+                                            </div>
+                                            <div class="blog-post-images margin-bottom"><a href="blog-single-full-width.html"><img  src="http://placehold.it/800x500" alt=""></a></div>
+                                        </div>
+                                        <div class="col-md-6 col-md-offset-1 col-sm-12 text-left text-med gray-text " style="padding-top:50px;">
+                                           
+                                           <input class="form-control" type="text" name = "bedrooms" placeholder = "# of bedrooms" /><br />
+                                            <input class="form-control" type = "text" name = "price" placeholder = "Price per night" /><br />
+                                            <input class="form-control" type="text" name = "city" placeholder = "City" /><br />
+                                            <input class="form-control" type="text" name = "minStay" placeholder = "Minimum # of nights" /><br />
+                                                                                <!-- button  -->
+                                             <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Add Pad</a>
+                                    <!-- end button  -->
+
+                                        </div>
+                                    </div>
+                                   
+                                   
                                 </div>
                             </div>
                             <!-- end tab content -->
+                            
                             <!-- tab content -->
                             <div id="tab6_sec3" class="col-md-9 col-sm-12 text-center center-col tab-pane fade in"> 
                                 <div class="tab-pane fade in"> 
                                     <div class="row"> 
                                         <div class="col-md-6 col-sm-12 text-left gray-text">
-                                            <h5>Branding</h5>
+                                            <h5>Change Your Account Info</h5>
                                             <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
-                                            <p class="text-large margin-five margin-right-ten">We create meaningful experiences through innovation in storytelling, technology, entertainment and products.</p>
+                                            <p class="text-large margin-five margin-right-ten">Your Profile Photo:</p>
+                                            <img src="/images/profile.png" alt="..." class="img-circle">
                                         </div>
                                         <div class="col-md-6 col-sm-12 text-left text-med gray-text">
-                                            <p class="text-uppercase">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            
+                                            <span class="required">*Please complete fields you want to change</span>
+
+                                         <form>
+                               
+                                <!-- input -->
+                                       <input type = "string" name = "name" placeholder = "name" /><br />
+                                        <input type = "string" name = "city" placeholder = "city" /><br />
+                                        <input type = "string" name = "email" placeholder = "email" /><br />
+                                        <input type = "string" name = "password" placeholder = "password" /><br />
+                                                                        <!-- button  -->
+                                      <a href="#" class="highlight-button-dark btn btn-medium button xs-margin-bottom-five" type = "submit">Update</a>
+                                <!-- end button  -->
+                            </form>
+
+
                                         </div>
                                     </div>
-                                    <div class="row"> 
-                                        <div class="wide-separator-line"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12 text-center service-year black-text">
-                                            <strong>1997 to 2014</strong> - Branding
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end tab content -->
-                            <!-- tab content -->
-                            <div id="tab6_sec4" class="col-md-9 col-sm-12 text-center center-col tab-pane fade in"> 
-                                <div class="tab-pane fade in"> 
-                                    <div class="row"> 
-                                        <div class="col-md-6 col-sm-12 text-left gray-text">
-                                            <h5>Photography</h5>
-                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
-                                            <p class="text-large margin-five margin-right-ten">A first impression can make or break you. we can help you find the precise message to clearly.</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 text-left text-med gray-text">
-                                            <p class="text-uppercase">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row"> 
-                                        <div class="wide-separator-line"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12 text-center service-year black-text">
-                                            <strong>1999 to 2014</strong> - Photography
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end tab content -->
-                            <!-- tab content -->
-                            <div id="tab6_sec5" class="col-md-9 col-sm-12 text-center center-col tab-pane fade in"> 
-                                <div class="tab-pane fade in"> 
-                                    <div class="row"> 
-                                        <div class="col-md-6 col-sm-12 text-left gray-text">
-                                            <h5>Social Marketing</h5>
-                                            <div class="separator-line bg-yellow no-margin-lr sm-margin-five"></div>
-                                            <p class="text-large margin-five margin-right-ten">We believe in the power of design, the strength of strategy, and the ability of technology to transform businesses and lives.</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 text-left text-med gray-text">
-                                            <p class="text-uppercase">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row"> 
-                                        <div class="wide-separator-line"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12 text-center service-year black-text">
-                                            <strong>2000 to 2014</strong> - Social Marketing
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                             </div>
                             <!-- end tab content -->
@@ -335,6 +185,7 @@
             </div>
         </section>
         <!-- end content section -->
+
         {{>footer}}
         {{>scripts}}
           </body>
