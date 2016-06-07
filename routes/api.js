@@ -69,41 +69,41 @@ router.post('/:resource', function(req, res, next){
 	var controller = controllers[resource];
 
 
-	// if(resource == 'login'){
-	// 	var loginCredentials = req.body;
-	// 	var email = loginCredentials.email;
+	if(resource == 'login'){
+		var loginCredentials = req.body;
+		var email = loginCredentials.email;
 
-	// 	//find profile with that email
-	// 	ProfileController.getRawProfiles({email:email}, function(err, results){
-	// 		if(err){
-	// 			res.json(createErrorObject(err.message));
-	// 			return;
-	// 		}
+		//find profile with that email
+		ProfileController.getRawProfiles({email:email}, function(err, results){
+			if(err){
+				res.json(createErrorObject(err.message));
+				return;
+			}
 
-	// 		if(results.length == 0){
-	// 			res.json(createErrorObject('User not found'));
-	// 			return;
-	// 		}
+			if(results.length == 0){
+				res.json(createErrorObject('User not found'));
+				return;
+			}
 
-	// 		var user = results[0];
-	// 		if(loginCredentials.password != user.password){
-	// 			res.json(createErrorObject('Incorrect password'));
-	// 			return;
-	// 		}
-	// 		//user logged in
+			var user = results[0];
+			if(loginCredentials.password != user.password){
+				res.json(createErrorObject('Incorrect password'));
+				return;
+			}
+			//user logged in
 
-	// 		//install cookie here before confirmation
-	// 		req.session.user = user._id;
+			//install cookie here before confirmation
+			req.session.user = user._id;
 
-	// 		res.json({
-	// 			confirmation:'success',
-	// 			profile: user.summary()
-	// 		});
+			res.json({
+				confirmation:'success',
+				profile: user.summary()
+			});
 
-	// 		return;
-	// 	});
-	// 	return;
-	// }
+			return;
+		});
+		return;
+	}
 
 	if(controller == null){
 		res.json(createErrorObject('Invalid request'));
